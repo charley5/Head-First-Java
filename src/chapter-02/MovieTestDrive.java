@@ -23,5 +23,7 @@ public class MovieTestDrive {
         three.title = "Byte Club";
         three.genre = "Tragic but ultimately uplifting";
         three.rating = 127;
+
+        System.out.print(one.title + " " + one.genre + " " + one.rating);
     }
 }
