@@ -3,9 +3,8 @@ class Triangle {
     int height;
     int length;
 
-
 public static void main(String[] args) {
-    inx x = 0;
+    int x = 0;
     Triangle[]ta=new Triangle[4];
     while (x < 4) {
         ta[x]=new Triangle();
